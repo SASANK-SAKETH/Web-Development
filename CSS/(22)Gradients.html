@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Gradients</title>
+            <meta charset="utf-8">
+            <style>
+                .y
+                {
+                    height: 100px;
+                    margin-bottom: 10px;
+                    outline-color: black;
+                    outline-style:ridge;
+                    outline-width: thin;
+                }
+                #a
+                {
+                  /* background: linear-gradient(blue,white);*/
+                 /* background:linear-gradient(to bottom right,blue,white,red);*/
+                    background:linear-gradient(rgb(11,60,237,01),rgb(247,248,249),rgb(247,2,2,0.5));
+                }
+                #b
+                {
+                   /* background:linear-gradient(blue,white,red);*/
+                   /* background:linear-gradient(45deg,blue,white,red);*/
+                    background: radial-gradient(blue,white,yellow);
+                }
+                #c
+                {
+                   /* background:linear-gradient(to left,blue,white,green);*/
+                    /*background:linear-gradient(blue 15%,white 30%,red 55%);*/
+                    background: radial-gradient(circle,red 15%,white 25%,yellow);
+                }
+            </style>
+        </head>
+        <body>
+            <div id="a" class="y"></div>
+            <div id="b" class="y"></div>
+            <div id="c" class="y"></div>
+        </body>
+    </html>

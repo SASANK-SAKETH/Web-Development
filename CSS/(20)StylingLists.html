@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Styling Lists</title>
+            <meta charset="utf-8">
+            <style>
+                p
+                {
+                    font-style: italic;
+                }
+                ul#l
+                {
+                   /* list-style: lower-roman;*/
+                   /* list-style: circle;*/
+                    list-style: square;
+                   /* list-style-image: url(Images/m_13.jpg);*/
+                    
+                }
+                ul#h
+                {
+                    list-style: none;
+                    padding-left: 30px;
+                    margin: 0px;
+                    background: url(Images/m_14.jpg);
+                    color: yellow;
+                    background-repeat: no-repeat;
+                    background-position: 0px center;
+                }
+            </style>
+        </head>
+        <body>
+            <p>List of countries <strong>:</strong></p>
+            <ul id="l">
+                <li>India</li>
+                <li>America</li>
+                <li>China</li>
+            </ul>
+            <p>List of movies :</p>
+            <ul id="h">
+                <li>Avengers</li>
+                <li>Avatar</li>
+                <li>Titanic</li>
+            </ul>
+        </body>
+    </html>

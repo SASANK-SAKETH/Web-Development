@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Animations</title>
+            <meta charset="utf-8">
+            <style>
+                .h
+                {
+                    height: 100px;
+                    width: 100px;
+                    background-color: chocolate;
+                    animation: my 3s;
+                    position: relative;
+                }
+               /* @keyframes my
+                {
+                    from{background-color: aqua;width: 100px}
+                    to{background-color: aquamarine;width: 200px}
+                }*/
+                @keyframes my
+                {
+                    0% {background-color: aquamarine;left: 0px;top: 0px}
+                    25% {background-color: rebeccapurple;left: 300px;top: 0px}
+                    50% {background-color: blue;left: 300px;top: 300px}
+                    75% {background-color: violet;left: 0px;top: 300px}
+                    100% {background-color: green;left: 0px;top: 0px}
+                }
+            </style>
+        </head>
+        <body>
+            <div class="h"></div>
+        </body>
+    </html>
